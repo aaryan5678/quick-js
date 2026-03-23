@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let,var and const</title>
+</head>
+<body>
+
+    <h1>
+        let,var and const 
+    </h1>
+
+    <h2>There are three ways of declaring a variable</h2>
+    <p>
+        <ul>
+            <li>let</li>
+            <li>var</li>
+            <li>const</li>
+        </ul>
+        
+    </p>
+    <p>Const and let are more strict than var..</p>
+
+    <h3>Const</h3>
+    <p>Wherever your value to not be changed use const</p>
+
+    <h3>let</h3>
+    <p>Whenever you want your value to be changed </p>
+
+    <h3>var</h3>
+    <p>Avoid using var at all. I'll explain why later </p>
+
+    <h2>Temporal Dead Zone</h2>
+    <p>Bss itnaa yaad rakho ki const aur let use karne ke wajah se reference error aa jata hai kyu variable declare nahi hua tha iss liye initialization error throw hua <br>
+    pr "var" ke liye ye constains nahi hai var ke liye hmesha undefined throw karega (ps it is strongly advised ki var ka usage kam ya na ke barabar kiya jaye )
+    </p>
+
+    <h2>Block Scope</h2>
+    <h3>What hell is a block scope man ?? like come on</h3>
+
+    <p> So straight to point whatever the hell in the {}
+        <br> thesecurly brackets like are called block scopes. <br>
+         <h4>Const, let - Block Scoped </h4>
+    </p>
+
+    <h3>Since we are talking about scopes let's also see what happens in functions</h3>
+
+    <h2>Lexical scope</h2>
+    <p>You basically check where it is located and can we access it or not... </p>
+    <script src="script.js"></script>
+</body>
+</html>
